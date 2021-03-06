@@ -1,5 +1,6 @@
-import { View, ListView, Image, Text, Dimensions } from 'react-native';
+import { View, Image, Text, Dimensions } from 'react-native';
 import React, { Component } from 'react';
+import ListView from 'deprecated-react-native-listview'
 import PropTypes from 'prop-types';
 import Task from 'data.task';
 import isEqual from 'lodash.isequal';
